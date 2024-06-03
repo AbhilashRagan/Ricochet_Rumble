@@ -1,0 +1,262 @@
+.content
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.togglebuttons
+{
+    width : 80vh;
+    height : 10vh;
+    border : 5px solid black;
+    padding : 5px;
+    display : grid;
+    grid-template-rows : 1fr;
+    grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.togglebuttons .undo
+{
+    display : flex;
+    grid-column : 1;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+}
+
+.togglebuttons .timer
+{
+    display : flex;
+    grid-column : 3;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+}
+
+.togglebuttons .redo
+{
+    display : flex;
+    grid-column : 8;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+}
+
+.togglebuttons .pause
+{
+    display : flex;
+    grid-column : 4;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+    transform : rotateZ(90deg);
+}
+
+.togglebuttons .play
+{
+    display : flex;
+    grid-column : 5;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+}
+
+.togglebuttons .reset
+{
+    display : flex;
+    grid-column : 6;
+    grid-row : 1;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    font-size : 3vw;
+}
+
+.grid
+{
+    height : 80vh;
+    width : 80vh;
+    border : 5px solid black;
+    display : grid;
+    grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap : 5px;
+    padding : 5px;
+}
+
+.redtitan
+{
+    background-color : red;
+    border : 2px solid black;
+}
+
+.redtitan img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.redcanon
+{
+    background-color : red;
+    border : 2px solid black;
+}
+
+.redcanon img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.redtank
+{
+    background-color : red;
+    border : 2px solid black;
+}
+
+.redtank img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.redricochet
+{
+    background-color : red;
+    border : 2px solid black;
+}
+
+.redricochet img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.redsemiricochet
+{
+    background-color : red;
+    border : 2px solid black;
+}
+
+.redsemiricochet img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.bluetitan
+{
+    background-color : blue;
+    border : 2px solid black;
+}
+
+.bluetitan img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.bluecanon
+{
+    background-color : blue;
+    border : 2px solid black;
+}
+
+.bluecanon img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.bluetank
+{
+    background-color : blue;
+    border : 2px solid black;
+}
+
+.bluetank img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.bluericochet
+{
+    background-color : blue;
+    border : 2px solid black;
+}
+
+.bluericochet img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.bluesemiricochet
+{
+    background-color : blue;
+    border : 2px solid black;
+}
+
+.bluesemiricochet img
+{
+    height : 100%;
+    width : 100%;
+}
+
+.gameover
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    z-index : 4;
+    background : black;
+    height : 25vh;
+    width : 100vw;
+}
+
+.gameover h1
+{
+    color : white;
+    font-size : 64px;
+    text-wrap : auto;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-100%);
+}
+
+.rotatehover
+{
+    display : grid;
+    grid-template-rows : 1fr 1fr;
+    grid-template-columns : 1fr;
+    padding-top : 6px;
+}
+
+.rotatehover .turnclock
+{
+    background-image : url("Resources/Clockwise.png");
+    background-repeat : no-repeat;
+    background-size : contain;
+}
+
+.rotatehover .turnanticlock
+{
+    background-image : url("Resources/Anticlockwise.png");
+    background-repeat : no-repeat;
+    background-size : contain;
+}
