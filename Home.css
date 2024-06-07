@@ -1,0 +1,100 @@
+body
+{
+    overflow : hidden;
+    margin : 0px;
+    padding : 0px;
+}
+
+.homebackground
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.homebackground .redbackground
+{
+    height : 50vh;
+    width : 100vw;
+    background-color : red;
+}
+
+.homebackground .bluebackground
+{
+    height : 50vh;
+    width : 100vw;
+    background-color : blue;
+}
+
+.text
+{
+    position : absolute;
+    top : 30%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    text-align : center;
+}
+
+.text .ricochet
+{
+    color : white;
+    font-size : 6vw;
+}
+
+.text .rumble
+{
+    color : white;
+    font-size : 4vw;
+}
+
+.buttons
+{
+    position : absolute;
+    top : 60%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    text-align : center;
+}
+
+.buttons .play
+{
+    padding : 10px;
+    background-color : red;
+    border : 4px solid black;
+    border-radius : 10px;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 4vw;
+    width : 13vw;
+}
+
+.buttons .bot
+{
+    padding : 10px;
+    background-color : red;
+    border : 4px solid black;
+    border-radius : 10px;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 2vw;
+    width : 13vw;
+}
+
+.buttons .logs
+{
+    padding : 10px;
+    background-color : red;
+    border : 4px solid black;
+    border-radius : 10px;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 2vw;
+    width : 13vw;
+}
+
+.buttons .filler
+{
+    width : 2vw;
+}
